@@ -1,4 +1,3 @@
-
 var video = document.getElementById("video"); //----------------------------------------------- function on_cam_success(stream){
 video.srcObject = stream; }
 //----------------------------------------------- function on_cam_error(err)
@@ -13,4 +12,3 @@ var c = document.getElementById("canvas"); c.width = video.width;
 c.height = video.height;
 var ctx = c.getContext("2d");
 ctx.drawImage(video, 0, 0, 640, 480); }
-//-----------------------------------------------
